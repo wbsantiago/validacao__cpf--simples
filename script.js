@@ -1,5 +1,5 @@
 function validaCPF() {
-    return true
+    return false
 }
 
 function validacao() {
