@@ -39,9 +39,9 @@ function validaCPF(cpf) {
 }
 
 function validacao() {
-    
+
     document.getElementById('success').style.display = 'none'
-    document.getElementById('success').style.display = 'none'
+    document.getElementById('error').style.display = 'none'
 
     var cpf = document.getElementById('form').value
     var resultadoValidacao = validaCPF(cpf)
